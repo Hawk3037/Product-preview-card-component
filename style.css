@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: hsl(30, 38%, 92%);
+}
+.container1{
+    text-align: center;
+
+}
+.img2{
+    height: 60vh;
+    width: 42vh;
+    border-radius: 5% 0% 0% 5%;
+}
+.img3{
+    display: none;
+}
+.row2{
+    width: 42vh;
+    height: 60vh;
+    background-color: white;
+    border-radius: 0% 5% 5% 0%;
+}
+h5{
+    padding-left: 4vh;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    padding-top: 2vh;
+}
+.headi2{
+    padding-left: 4vh;
+    font-family: 'Fraunces', serif;
+}
+p{
+    padding-left: 4vh;
+    
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+
+}
+h2{
+    padding-left: 4vh ;
+    font-family: 'Fraunces', serif;
+    color: hsl(158, 36%, 37%);
+}
+span{
+    font-size: small;
+    font-weight: 100;
+    color: black;
+    margin-left: 2rem;
+}
+
+  
+  button img {
+    margin-right: 1vh;
+  }
+  
+  
+
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+    background-color: #f1f1f1;
+    padding: 10px 0;
+  }
+  
+  .attribution {
+    font-size: 11px;
+    text-align: center;
+  }
+  
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+  }
+  .d-grid{
+    padding-top: 0.7rem;
+    padding-right: 1rem;
+    padding-left: 1rem;
+  }
+  .btn{
+    background-color: hsl(158, 36%, 37%);
+    border-color:hsl(158, 36%, 37%);;
+  }
+  .btn-primary:hover{
+    background-color:  darkgreen ;
+  }
+   
+  @media (min-width:300px ) and (max-width:751px){
+    
+    body{
+        display: inline-block;
+        align-items: center;
+        box-sizing: border-box;
+    }
+    .img2{
+        display: none;
+    }
+    .img3{
+        display: inline;
+        margin-bottom: 0rem;
+        border-top-left-radius: 5%;
+        border-top-right-radius: 5%;
+        margin-top: 80px;
+        margin-bottom: 0rem !important;
+    }
+    .row2{
+        border-bottom-left-radius: 5%;
+        border-bottom-right-radius: 5%;
+        border-top-right-radius: 0rem;
+        margin-top: 0rem !important;
+
+        
+    }
+    .img3, .row2{
+        height: 320px;
+        width: 25rem;
+        margin: 10rem;
+    }
+
+    
+    .btn-primary:hover{
+        background-color: darkgreen;
+
+    }
+    .d-grid{
+        padding-top: 0rem;
+        
+    }
+  }
